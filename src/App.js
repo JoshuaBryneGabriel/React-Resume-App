@@ -4,12 +4,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <img src={profilePic} alt="Profile" style={{ width: '100px', height: '100px', marginRight: '20px' }} />
         <h1>Joshua Gabriel</h1>
         <h2>Software Developer</h2>
       </header>
       <section>
         <h3>About Me</h3>
-        <p>I am a full stack developer with experience in React, Node.js, and MongoDB.</p>
+        <p>I am a Computer Science Graduate of the University of The East with 4 months Project Based Contract experience as a Software Developer</p>
       </section>
       <section>
         <h3>Skills</h3>
