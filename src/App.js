@@ -1,26 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <div>This is awesome</div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Joshua Gabriel</h1>
+        <h2>Software Developer</h2>
       </header>
+      <section>
+        <h3>About Me</h3>
+        <p>I am a full stack developer with experience in React, Node.js, and MongoDB.</p>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>MongoDB</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Experience</h3>
+        <h4>Company Name</h4>
+        <p>Role: Full Stack Developer</p>
+        <p>Duration: Jan 2020 - Present</p>
+        <p>Description: Developed and maintained web applications using React, Node.js, and MongoDB.</p>
+      </section>
+      <section>
+        <h3>Education</h3>
+        <h4>University Name</h4>
+        <p>Degree: Bachelor's in Computer Science</p>
+        <p>Year: 2016 - 2020</p>
+      </section>
+      <footer>
+        <p>Contact: johndoe@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe/">https://www.linkedin.com/in/johndoe/</a></p>
+      </footer>
     </div>
   );
 }
 
 export default App;
+
